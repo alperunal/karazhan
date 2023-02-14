@@ -1,6 +1,6 @@
 {
-  "name": "@spacegoat/karazhan",
-  "version": "1.0.2",
+  "name": "karazhan",
+  "version": "1.0.3",
   "description": "WoW toolkit for applications",
   "types": "./dist/main.d.ts",
   "main": "./dist/main.js",
