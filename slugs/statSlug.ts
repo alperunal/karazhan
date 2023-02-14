@@ -1,4 +1,4 @@
-export enum statSlug {
+export enum StatSlug {
   Agility = 'agility',
   Avoidance = 'avoidance',
   CriticalStrike = 'critical-strike',
@@ -13,4 +13,4 @@ export enum statSlug {
   Versatility = 'versatility',
 }
 
-export default statSlug;
+export default StatSlug;

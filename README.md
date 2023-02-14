@@ -6,6 +6,7 @@ A simple World of Warcraft application toolkit.
 ``` npm run build ```
 
 ## Changelog
+- [1.0.1] StatSlug typo is fixed. ESM build error is fixed.
 - [1.0.0] ESM support, several slugs for World of Warcraft Dragonflight expansion.
 
 ## Version Compability

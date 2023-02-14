@@ -1,19 +1,19 @@
-import AffixSlug from "./slugs/affixSlug";
-import ClassSlug from "./slugs/classSlug";
-import FactionSlug from "./slugs/factionSlug";
-import GenderSlug from "./slugs/genderSlug";
-import SlotSlug from "./slugs/slotSlug";
-import SpecializationSlug from "./slugs/specializationSlug";
-import statSlug from "./slugs/statSlug";
+import AffixSlug from "./slugs/affixSlug.js";
+import ClassSlug from "./slugs/classSlug.js";
+import FactionSlug from "./slugs/factionSlug.js";
+import GenderSlug from "./slugs/genderSlug.js";
+import SlotSlug from "./slugs/slotSlug.js";
+import SpecializationSlug from "./slugs/specializationSlug.js";
+import StatSlug from "./slugs/StatSlug.js";
 
 export default {
   slugs: {
-    affix: AffixSlug,
-    class: ClassSlug,
-    faction: FactionSlug,
-    gender: GenderSlug,
-    slot: SlotSlug,
-    specialization: SpecializationSlug,
-    stat: statSlug,
+    affixes: AffixSlug,
+    classes: ClassSlug,
+    factions: FactionSlug,
+    genders: GenderSlug,
+    slots: SlotSlug,
+    specializations: SpecializationSlug,
+    stats: StatSlug,
   },
 };

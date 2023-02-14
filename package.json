@@ -1,9 +1,10 @@
 {
   "name": "karazhan",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "WoW toolkit for applications",
   "types": "./dist/main.d.ts",
-  "main": "index.js",
+  "main": "./dist/main.js",
+  "type": "module",
   "exports": {
     ".": {
       "types": "./dist/main.d.ts",
