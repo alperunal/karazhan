@@ -1,6 +1,6 @@
 {
-  "name": "karazhan",
-  "version": "1.0.1",
+  "name": "@spacegoat/karazhan",
+  "version": "1.0.2",
   "description": "WoW toolkit for applications",
   "types": "./dist/main.d.ts",
   "main": "./dist/main.js",
@@ -20,6 +20,10 @@
   "devDependencies": {
     "typescript": "*"
   },
-  "author": "alperunal",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alperunal/karazhan.git"
+  },
+  "author": "spacegoat",
   "license": "ISC"
 }

@@ -1,11 +1,15 @@
 # Karazhan
 A simple World of Warcraft application toolkit.
 
+## npm
+
+
 ## Build
 ``` npm install ```
 ``` npm run build ```
 
 ## Changelog
+- [1.0.2] package name is updated and git data is added.
 - [1.0.1] StatSlug typo is fixed. ESM build error is fixed.
 - [1.0.0] ESM support, several slugs for World of Warcraft Dragonflight expansion.
 
