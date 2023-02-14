@@ -1,0 +1,24 @@
+{
+  "name": "karazhan",
+  "version": "1.0.0",
+  "description": "WoW toolkit for applications",
+  "types": "./dist/main.d.ts",
+  "main": "index.js",
+  "exports": {
+    ".": {
+      "types": "./dist/main.d.ts",
+      "default": "./dist/main.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "*"
+  },
+  "author": "alperunal",
+  "license": "ISC"
+}
