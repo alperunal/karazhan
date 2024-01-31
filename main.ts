@@ -1,19 +1,22 @@
-import AffixSlug from "./slugs/affixSlug.js";
-import ClassSlug from "./slugs/classSlug.js";
-import FactionSlug from "./slugs/factionSlug.js";
-import GenderSlug from "./slugs/genderSlug.js";
-import SlotSlug from "./slugs/slotSlug.js";
-import SpecializationSlug from "./slugs/specializationSlug.js";
-import StatSlug from "./slugs/StatSlug.js";
+// slugs
+import AlliedRaces from "./slugs/allied-races.js";
+import Classes from "./slugs/classes.js";
+import Races from "./slugs/races.js";
+import Slots from "./slugs/slots.js";
+import Specs from "./slugs/specs.js";
+
+// gameplay
+import classColors from "./gameplay/class-colors.js";
 
 export default {
   slugs: {
-    affixes: AffixSlug,
-    classes: ClassSlug,
-    factions: FactionSlug,
-    genders: GenderSlug,
-    slots: SlotSlug,
-    specializations: SpecializationSlug,
-    stats: StatSlug,
+    classes: Classes,
+    races: Races,
+    alliedRaces: AlliedRaces,
+    slots: Slots,
+    specializations: Specs,
+  },
+  gameplay: {
+    classColors: classColors,
   },
 };
