@@ -6,6 +6,7 @@ A simple World of Warcraft application toolkit.
 ``` npm run build ```
 
 ## Changelog
+- [1.2.0] Item quality colors are added.
 - [1.1.0] Slugs are re-formed and class colors are added.
 - [1.0.3] organization name is removed.
 - [1.0.2] package name is updated and git data is added.

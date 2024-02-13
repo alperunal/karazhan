@@ -1,4 +1,4 @@
-import Classes from "../slugs/classes.js";
+import Classes from '../slugs/classes.js';
 
 const classColors = {
   [Classes.DeathKnight]: {

@@ -6,7 +6,8 @@ import Slots from "./slugs/slots.js";
 import Specs from "./slugs/specs.js";
 
 // gameplay
-import classColors from "./gameplay/class-colors.js";
+import classColors from "./constants/class-colors.js";
+import itemQualityColors from "./constants/item-quality-colors.js";
 
 export default {
   slugs: {
@@ -18,5 +19,6 @@ export default {
   },
   gameplay: {
     classColors: classColors,
+    itemColors: itemQualityColors
   },
 };
